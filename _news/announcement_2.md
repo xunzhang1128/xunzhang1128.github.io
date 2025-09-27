@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received the 2024 University-Level Third-Class Scholarship！🥳
+I received the 2024 University-Level Third-Class Scholarship! 🥳
