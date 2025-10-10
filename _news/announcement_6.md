@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was awarded the title of "Outstanding Communist Youth League Member of 2024" at the university level. 🎉
+I was awarded the title of "2024 University-Level Outstanding Communist Youth League Member". 🎉
