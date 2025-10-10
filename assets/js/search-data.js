@@ -384,8 +384,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-work-grounding-iqa-is-released-paper-project-github-sparkles",
-          title: 'Our work Grounding-IQA is released: Paper | Project | GitHub. :sparkles:',
+            },},{id: "news-i-was-awarded-the-title-of-outstanding-communist-youth-league-member-of-2024-at-the-university-level",
+          title: 'I was awarded the title of “Outstanding Communist Youth League Member of 2024”...',
+          description: "",
+          section: "News",},{id: "news-our-work-grounding-iqa-is-released-paper-project-github",
+          title: 'Our work Grounding-IQA is released: Paper | Project | GitHub. ✨',
           description: "",
           section: "News",},{id: "news-i-received-the-2024-university-level-third-class-scholarship",
           title: 'I received the 2024 University-Level Third-Class Scholarship! 🥳',
