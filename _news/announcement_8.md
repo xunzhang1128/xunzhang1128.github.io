@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received the 2025 University-Level Second-Class Scholarship! 🎊
+I received the 2025 University-Level Second-Class Scholarship! 🎈
