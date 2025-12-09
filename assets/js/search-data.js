@@ -384,7 +384,7 @@ ninja.data = [{
           title: 'Our work TreeQ is released: Paper | GitHub | Arxiv. 🌳',
           description: "",
           section: "News",},{id: "news-i-received-the-2025-university-level-second-class-scholarship",
-          title: 'I received the 2025 University-Level Second-Class Scholarship! 🎊',
+          title: 'I received the 2025 University-Level Second-Class Scholarship! 🎈',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
