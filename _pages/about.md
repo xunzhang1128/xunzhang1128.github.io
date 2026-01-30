@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: "Email: zhangxun04@sjtu.edu.cn"
 
