@@ -411,7 +411,7 @@ ninja.data = [{
           title: 'My overall assessment score ranked 1th out of 97 students in the 2025-2026...',
           description: "",
           section: "News",},{id: "news-i-received-the-2025-2026-national-scholarship-for-undergraduate-students-10-000-rmb",
-          title: 'I received the 2025–2026 National Scholarship for Undergraduate Students (¥10,000 RMB)! 🏆',
+          title: 'I received the 2025-2026 National Scholarship for Undergraduate Students (¥10,000 RMB)! 🏆',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
