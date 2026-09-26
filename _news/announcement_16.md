@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received the 2025–2026 National Scholarship for Undergraduate Students (¥10,000 RMB)! 🏆
+I received the 2025-2026 National Scholarship for Undergraduate Students (¥10,000 RMB)! 🏆
