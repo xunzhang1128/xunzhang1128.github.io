@@ -109,13 +109,32 @@
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
         {% assign more_authors_show = '' %}
+        {% assign more_authors_show_html = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign folded_author_is_self = false %}
+          {%- assign folded_author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+          {% if site.scholar.last_name contains folded_author_last_name %}
+            {% if site.scholar.first_name contains author.first %}
+              {% assign folded_author_is_self = true %}
+            {% endif %}
+          {% endif %}
+
+          {% capture folded_author_plain %}{{ author.first }} {{ author.last }}{% endcapture %}
+          {% capture folded_author_html %}
+            {% if folded_author_is_self %}<em>{{ author.first }} {{ author.last }}</em>{% else %}{{ author.first }} {{ author.last }}{% endif %}
+          {% endcapture %}
+          {% assign folded_author_plain = folded_author_plain | strip %}
+          {% assign folded_author_html = folded_author_html | strip %}
+
+          {% assign more_authors_show = more_authors_show | append: folded_author_plain %}
+          {% assign more_authors_show_html = more_authors_show_html | append: folded_author_html %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
+            {% assign more_authors_show_html = more_authors_show_html | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- assign more_authors_show_html = more_authors_show_html | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
         <span
           class="more-authors"
@@ -123,12 +142,16 @@
           onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
+              var expanding = element.text() == '{{ more_authors_hide }}';
+              var more_authors_text = expanding ? '{{ more_authors_show | strip_html }}' : '{{ more_authors_hide }}';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
+                  if (expanding) {
+                    element.html('{{ more_authors_show_html }}');
+                  }
                 }
             }, '{{ site.more_authors_animation_delay }}');
           "
