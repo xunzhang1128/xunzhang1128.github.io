@@ -414,7 +414,7 @@ ninja.data = [{
           title: 'I received the 2025-2026 National Scholarship for Undergraduate Students (¥10,000 RMB)! 🏆',
           description: "",
           section: "News",},{id: "news-our-work-justquant-is-released-paper-project-github-️",
-          title: 'Our work JustQuant is released: Paper) | Project | GitHub. 🗝️',
+          title: 'Our work JustQuant is released: Paper | Project | GitHub. 🗝️',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
