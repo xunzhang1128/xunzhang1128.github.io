@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work JustQuant is released: [Paper](https://arxiv.org/pdf/2609.33601)) &#124; [Project](https://racoonykc.github.io/projects/justquant/) &#124; [GitHub](https://github.com/racoonykc/JustQuant). 🗝️
+Our work JustQuant is released: [Paper](https://arxiv.org/pdf/2609.33601) &#124; [Project](https://racoonykc.github.io/projects/justquant/) &#124; [GitHub](https://github.com/racoonykc/JustQuant). 🗝️
