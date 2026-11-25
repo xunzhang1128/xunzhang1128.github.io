@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate student at the [Department of Computer Science and Engineering (CSE)](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), advised by Prof. [Yulun Zhang](https://yulunzhang.com/).
+I am an undergraduate student at the [Department of Computer Science and Engineering (CSE)](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), majoring in Artificial Intelligence and advised by Prof. [Yulun Zhang](https://yulunzhang.com/).
 
 Research interests: computer vision, model compression, and multimodal learning.
