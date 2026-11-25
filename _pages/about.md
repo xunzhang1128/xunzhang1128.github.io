@@ -13,15 +13,6 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-honors:
-  - "National Scholarship for Undergraduate Students (2025–2026)"
-  - "Yanbao Scholarship (2025)"
-  - "University-Level First-Class Scholarship (2026)"
-  - "University-Level Second-Class Scholarship (2025)"
-  - "University-Level Third-Class Scholarship (2024)"
-  - "University-Level Merit Student (2024–2025)"
-  - "University-Level Outstanding Communist Youth League Member (2024)"
-
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items

@@ -67,18 +67,6 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Honors -->
-    {% if page.honors %}
-      <section class="mt-5">
-        <h2>Honors</h2>
-        <ul>
-          {% for honor in page.honors %}
-            <li>{{ honor | escape }}</li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endif %}
-
     <!-- Social -->
     {% if page.social %}
       <div class="social">
